@@ -1,2 +1,3 @@
 # Address-book-project
-.....
+
+This Java program implements a simple Address Book application using Swing for GUI-based user interaction and file handling for data persistence. It allows users to add, search, and delete records of individuals, each containing a name, address, and phone number. The data is stored in an ArrayList during runtime and is saved to a file (persons.txt) upon exiting the program, ensuring persistence across sessions. At startup, the application automatically loads the saved data from the file. User input is managed through JOptionPane dialog boxes, offering a straightforward interface. The program's modular design makes it easy to manage records, while file operations ensure the address book remains functional between runs.
